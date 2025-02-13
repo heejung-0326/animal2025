@@ -7,7 +7,9 @@ main{}
   position: relative;
 } 
 
-.mslide img{width: 100%;} /* 자동 크기 조정*/
+.mslide img{
+  width: 150%; /* 자동 크기 조정*/
+}
 
 .mslide h2{display: none;}
 
@@ -107,7 +109,7 @@ width: 100px;}
   font-size: 24px;
   font-weight: bold;
   float: left;
-  width: 150px;
+  width: 110px;
 }
 .info a{
   color: #ffffff;
