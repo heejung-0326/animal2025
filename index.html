@@ -29,7 +29,7 @@
 
   <!-- 접속한 사용자의 디바이스 종류에 따라 pc index.html가 열릴지, mobile index.html열릴지 결정해주는 자바스크립트 소스코드 작성 -->
   <script>
-    let mobile_keys = new Array('iphone', 'ipad', 'Android', 'BlackBerry', 'Window CE', 'Window phone', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Nokia');
+    let mobile_keys = new Array('iPhone', 'ipad', 'Android', 'BlackBerry', 'Window CE', 'Window phone', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Nokia');
 
     // 모바일 사용자가 pc버전 보기를 클릭시 move_pc_screen문자 주소 뒤에 붙은 경우에 스크립트를 동작 안하게 할 수 있다.
     if(document.URL.match('move_pc_screen')) mobile_keys=null;
